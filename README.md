@@ -48,5 +48,3 @@ which combine the two into the ispunct() function.
 #### Dependencies
 
 - **[GoConvey](https://github.com/smartystreets/goconvey)** for testing.
-
-# eof
