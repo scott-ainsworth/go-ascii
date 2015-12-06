@@ -1,5 +1,5 @@
 // This package provides fast ASCII equivalents to the test and conversion
-// functions in the standard Go UNICODE package.
+// functions in the standard Go unicode package.
 package ascii
 
 // Constants for ASCII characters without printable symbols.
@@ -10,7 +10,7 @@ const (
 	ETX = 0x03 //      End of Text
 	EOT = 0x04 //      End of Transmission
 	ENQ = 0x05 //      Enquiry
-	ACK = 0x06 //      Acknoledgement
+	ACK = 0x06 //      Acknowledgement
 	BEL = 0x07 // '\a' Bell
 	BS  = 0x08 // '\b' Backspace
 	HT  = 0x09 // '\t' Horizontal Tab
