@@ -45,4 +45,8 @@ these functions are 10 &ndash; 20 times faster the the
 and [C Standard Library](http://en.cppreference.com/w/c/string/byte/ispunct),
 which combine the two into the ispunct() function.
 
+#### Dependencies
+
+- **[GoConvey](https://github.com/smartystreets/goconvey)** for testing.
+
 # eof
