@@ -35,7 +35,7 @@ Function | Definition
 #### Notes
 
 1. This package is suitable if and only if the data is really ASCII.  No attempt is made to
-detect non-ASCII charater sets or perform other sanity check.  However, when the data is ASCII,
+detect non-ASCII charater sets or perform other sanity checks.  However, when the data is ASCII,
 these functions are 10 &ndash; 20 times faster the the
 [unicode](https://golang.org/pkg/unicode/) package equivalents.
 
