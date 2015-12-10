@@ -3,6 +3,7 @@ package ascii
 import (
 	"math/rand"
 	"testing"
+	"unicode"
 )
 
 //******************************************************************************
@@ -106,6 +107,14 @@ func BenchmarkIsPrint(b *testing.B) {
 	for n := 0; n < b.N; n++ {
 		for i := 0; i < len(sample); i++ {
 			IsPrint(sample[i])
+		}
+	}
+}
+
+func BenchmarkIsPrintUnicode(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for i := 0; i < len(sample); i++ {
+			unicode.IsPrint(rune(sample[i]))
 		}
 	}
 }

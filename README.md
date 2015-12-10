@@ -30,7 +30,7 @@ Function | Definition
 
 #### Notes
 
-1. This package is suitable if and only if the data is really ASCII.  No attempt is made to detect non-ASCII charater sets or perform other sanity checks.  However, when the data is ASCII, these functions are 10 &ndash; 20 times faster the the [unicode](https://golang.org/pkg/unicode/) package equivalents.
+1. This package is suitable if and only if the data is really ASCII.  No attempt is made to detect non-ASCII charater sets or perform other sanity checks.  However, when the data is ASCII, these functions are about 2.5 times faster than the [unicode](https://golang.org/pkg/unicode/) package equivalents.
 
 2. This package differentiates between punctuation and symbols as does the [unicode](https://golang.org/pkg/unicode/) package.  This differs from the [GNU C Library](http://www.gnu.org/software/libc/manual/html_node/Classification-of-Characters.html) and [C Standard Library](http://en.cppreference.com/w/c/string/byte/ispunct), which combine the two into the ispunct() function.
 
